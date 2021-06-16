@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/3a4fdcd1c5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="테스트5.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="width: 1520px; margin: auto; margin-bottom: 10px;">
+        <div class="container-fluid">
+          <div class="navbar-header one">
+            <a class="navbar-brand" href="#"><i class="fas fa-home"></i>HOME</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="search-box"><a href="#"><i class="fas fa-search"></i>SEARCH</a></li>
+            <li><a href="#"><i class="far fa-file-alt fas"></i>MANAGER</a></li>
+            <li><a href="#"><i class="fas fa-folder"></i>MY PAGE</a></li>
+          </ul>
+          <div class="navbar-header rightbox" style="color: white; padding-top: 4px;">
+            <span>department a</span>
+            <span style="font-size: 18px; float: right;font-weight: bold;">user A</span>
+          </div>          
+          <div class="navbar-header rightbox" style="margin-right: 100px;">
+            <div>
+                <a class="navbar-brand title" href="#" style="font-size: 30px;">CLOSET 3D</a>
+            </div>            
+          </div>                  
+        </div>
+    </nav>
+    <div class="container" style="padding: 0;">
+        <div class="row" style="box-sizing: border-box;">
+            <div class="i-box" style="position: absolute; width: 50px; height: 940px; background-color: rgb(166, 164, 171); top: -10px; padding: 11px;">
+                <div style="margin-top: 10px;">
+                    <i class="far fa-list-alt"></i>
+                </div>
+                <div>
+                    <i class="far fa-calendar-check"></i>
+                </div>
+                <div>
+                    <i class="fas fa-folder-minus"></i>
+                </div>
+            </div>
+            <div class="col-sm-9 colbox" style="margin-left: 50px; float: left;">
+                <div style="padding-bottom: 5px;">
+                    <span style="font-size: 30px; font-weight: bold;">사용 신청 정보</span>
+                </div>
+                <div style="height: 860px; width: 100%; border: 1px solid rgb(230, 231, 233);">
+                <table class="table left">
+                    <thead style="background-color: rgb(248, 248, 250); height: 64px; font-size: 16px; font-weight: 700;">
+                        <tr>
+                            <th style="width: 140px;">NO</th>
+                            <th>ID</th>
+                            <th>신청자</th>
+                            <th>신청자 부서</th>
+                            <th>위치</th>
+                            <th>할당 부서</th>
+                            <th>상태</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>C-20210321-bg-0001</td>
+                            <td>김철수 사원</td>
+                            <td>개발 부서</td>
+                            <td>A동 1층 2블록 가3</td>
+                            <td>개발 부서</td>
+                            <td>승인 대기</td>
+                        </tr>
+                        <tr style="background-color: rgb(248, 248, 250);">
+                            <td>2</td>
+                            <td>C-20210321-bg-0002</td>
+                            <td>이신사 사원</td>
+                            <td>마케팅 부서</td>
+                            <td>A동 1층 2블록 가4</td>
+                            <td>마케팅 부서</td>
+                            <td>승인 대기</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>C-20210321-bg-0003</td>
+                            <td>하훈 사원</td>
+                            <td>설계 부서</td>
+                            <td>A동 1층 2블록 가5</td>
+                            <td>설계 부서</td>
+                            <td>승인 대기</td>
+                        </tr>
+                        <tr style="background-color: rgb(248, 248, 250);">
+                            <td>4</td>
+                            <td>C-20210321-bg-0004</td>
+                            <td>박용화 사원</td>
+                            <td>설계 부서</td>
+                            <td>A동 1층 2블록 가6</td>
+                            <td>설계 부서</td>
+                            <td>승인 대기</td>
+                        </tr>                      
+                    </tbody>           
+                    <div style="width: 1110px; height: 1px; border-top: 1px solid rgb(230, 231, 233); position: absolute; top: 860px;"></div>         
+                    <ul class="pagination" style="float: right; margin: 0;">
+                        <li><a href=""><i class="fas fa-angle-left" style="margin: 0;"></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#"><i class="fas fa-ellipsis-h" style="margin: 0; font-size: 4px;"></i></a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href=""><i class="fas fa-angle-right" style="margin: 0;"></i></a></li>
+                    </ul>
+                </table>
+                </div>
+            </div>
+            <div class="colbox" style="border: 1px solid rgb(230, 231, 233); float: right; width: 330px; height: 907px; padding: 10px 14px 10px 14px;">
+                <div style="margin-bottom: 18px;">
+                    <span style="font-size: 25px; font-weight: bold;">신청자 정보</span>
+                </div>
+                <div style="width: 100%; height: 96px; margin-bottom: 12px;">
+                    <div style="height: 50%; width: 100%;">
+                        <div style="float: left; width: 50%; line-height: 49px; text-align: center;"><span>이름</span></div>              
+                        <div style="float: left; width: 50%; line-height: 49px; text-align: center;"><span>김철수 사원</span></div>
+                    </div>
+                    <div style="height: 50%; width: 100%;">
+                        <div style="float: left; width: 50%; line-height: 49px; text-align: center;"><span>소속부서</span></div>              
+                        <div style="float: left; width: 50%; line-height: 49px; text-align: center;"><span>개발부서</span></div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 12px;">
+                    <span style="font-size: 14px; font-weight: bold;">보관함 사용 정보</span>
+                </div>
+                <div style="border: 1px solid rgb(163, 163, 163);">
+                    <table class="table right" style="width: 100%; margin-bottom: 0;">
+                        <thead style="height: 20px; background-color: rgb(248, 248, 250);">
+                        <tr>
+                            <th>NO</th>
+                            <th>ID</th>
+                            <th>보관함종류</th>
+                            <th>상태</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr style="height: 39px;">
+                            <td>1</td>
+                            <td>C-2021032-bg-0031</td>
+                            <td>캐비넷1</td>
+                            <td>사용신청</td>
+                        </tr>
+                        <tr style="height: 39px;">
+                            <td>1</td>
+                            <td>C-2021032-bg-0031</td>
+                            <td>캐비넷2</td>
+                            <td>사용신청</td>
+                        </tr>                   
+                        </tbody>
+                    </table>
+                </div>
+                <div style="border-top: 1px solid rgb(163, 163, 163); margin-top: 36px; padding-top: 20px;">
+                    <span style="font-size: 25px; font-weight:bold;">보관함 정보</span>
+                </div>
+                <div style="width: 100%; margin-bottom: 12px;">
+                    <div style="height: 50%; width: 100%;">
+                        <div style="float: left; width: 30%; line-height: 49px; text-align: center; font-size: 20px;"><span>ID</span></div>              
+                        <div style="float: left; width: 70%; line-height: 49px; text-align: center; font-size: 20px;"><span>C-20210321-bg-0001</span></div>
+                    </div>
+                    <div style="height: 50%; width: 100%;">
+                        <div style="float: left; width: 30%; line-height: 49px; text-align: center; font-size: 20px;"><span>설치일</span></div>              
+                        <div style="float: left; width: 70%; line-height: 49px; text-align: center; font-size: 20px;"><span>2021년03월21일</span></div>
+                    </div>
+                    <div style="height: 50%; width: 100%;">
+                        <div style="float: left; width: 30%; line-height: 49px; text-align: center; font-size: 20px;"><span>위치</span></div>              
+                        <div style="float: left; width: 70%; line-height: 49px; text-align: center; font-size: 20px;"><span>A동 1층 2블록 가3</span></div>
+                    </div>
+                </div>
+                <div class="btn-box" style="position: absolute; top:867px">                    
+                    <button style="background-color: rgb(56, 85, 179); border: none; color: white; height: 30px; line-height: 26px; width: 128px; border-radius: 6px; font-weight: bold; margin-right: 38px;">승인</button>
+                    <button style="background-color: rgb(56, 85, 179); border: none; color: white; height: 30px; line-height: 26px; width: 128px; border-radius: 6px; font-weight: bold;">거부</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

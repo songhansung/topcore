@@ -1,0 +1,59 @@
+@charset "utf-8";
+.navbar{
+    background-color: rgb(56, 85, 179);
+    border-color: rgb(56, 85, 179);
+}
+.navbar-header.rightbox{
+  float:right;
+}
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+.navbar-inverse .navbar-nav .search-box>a{
+    color: yellow;
+}
+.navbar-header.one{
+    margin-left: 30px;
+}
+.fas{
+    margin-right: 20px;
+}
+.rightbox{
+    float: right;
+}
+.rightbox>span{
+    display: block;
+}
+.container{
+    width: 1400px;
+    height: 800px;
+    position: relative;
+}
+.container div>table>thead>tr>th{
+    text-align: center;
+}
+.container div>table{
+    text-align: center;
+}
+.container >table>tr+tr{
+    border-left: none;
+}
+.even{
+    background-color: rgb(248, 248, 250);
+}
+.pagination{
+    position: absolute;
+    top: 754px;
+    left: 1220px;
+}
+.pagination>li>a{
+    border: none;
+    color: black;
+}
+.table>thead>tr>th{
+    vertical-align: 0;
+    line-height: 50px;
+}
